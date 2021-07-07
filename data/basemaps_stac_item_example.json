@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            172.65838623046847,
+            -43.389081939117446
+          ],
+          [
+            172.65838623046847,
+            -43.38708594974798
+          ],
+          [
+            172.66113281249972,
+            -43.38708594974798
+          ],
+          [
+            172.66113281249972,
+            -43.389081939117446
+          ],
+          [
+            172.65838623046847,
+            -43.389081939117446
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "name": "17-128399-83103",
+      "datetime": "2020-10-12T21:18:57.206Z",
+      "gsd": 0.07464553543474216,
+      "proj:epsg": 3857
+    },
+    "bbox": [
+      172.65838623046847,
+      -43.389081939117446,
+      172.66113281249972,
+      -43.38708594974798
+    ],
+    "id": "01EMFAVAES3YA3CG6FDV49RHV1/17-128399-83103",
+    "collection": "01EMFAVAES3YA3CG6FDV49RHV1",
+    "stac_version": "1.0.0-beta.2",
+    "stac_extensions": [
+      "projection"
+    ],
+    "links": [
+      {
+        "href": "s3://basemaps-cog-test/3857/christchurch_urban_2018-2019_0-075m_RGB/01EMFAVAES3YA3CG6FDV49RHV1/17-128399-83103.json",
+        "rel": "self"
+      },
+      {
+        "href": "collection.json",
+        "rel": "collection"
+      }
+    ],
+    "assets": {
+      "cog": {
+        "href": "17-128399-83103.tiff",
+        "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+        "roles": [
+          "data"
+        ]
+      }
+    }
+  }
