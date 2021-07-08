@@ -1,5 +1,5 @@
 # iso2stac
-xslt for converting ISO19115 ANZLIC profile metadata to STAC
+XSLT for converting [ISO19115 ANZLIC profile metadata](https://www.linz.govt.nz/about-linz/what-were-doing/projects/previous-projects/anzlic-metadata-profile) to [STAC](https://stacspec.org/)
 
 # Setup
 
