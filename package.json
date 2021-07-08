@@ -1,15 +1,33 @@
 {
   "name": "iso2stac",
   "version": "1.0.0",
-  "description": "",
+  "description": "ISO 19115 ANZLIC profile metadata to STAC converter",
+  "homepage": "https://github.com/linz/iso2stac",
+  "repository": "https://github.com/linz/iso2stac",
+  "bugs": "https://github.com/linz/iso2stac/issues",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "pretty-quick": "pretty-quick"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+      "ANZLIC",
+      "AS/NZS ISO 19115.1:2015",
+      "Australia New Zealand Land Information Council Metadata Profile",
+      "ISO ",
+      "STAC",
+      "SpatioTemporal Asset Catalog",
+      "XML",
+      "XSLT",
+      "convert"
+  ],
+  "author": "Toitū Te Whenua Land Information New Zealand",
+  "contributors": [
+      "Jack Reyneke",
+      "Mitchell Paff",
+      "Victor Engmark"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@prettier/plugin-xml": "^0.13.1",
